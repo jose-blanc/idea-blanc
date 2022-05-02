@@ -77,18 +77,66 @@
     <h3>y postulate en nuestras búsquedas</h3>
     </p>
 
-    <form>
-        Nombre:<input type="nombre" placeholder="Nombre" />
-        Apellido:<input type="apellido" placeholder="Apellido" /> <br>
-        Mail:<input type="mail" placeholder="Mail" />
-        Telefono:<input type="telefono" placeholder="Telefono" /> <br>
-        Area:<input type="area" placeholder="Area" />
-        Comentario:<input type="comentario" placeholder="Comentario" /> <br>
-        <input type="submit" value="ENVIAR">
-    </form>
-
-    <a href="contacto.html">CONTACTANOS</a>
-    </main>
+    <!--Formulario-->
+    <form class="container border border-5">
+        <div class="row mb-3">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Nombre y Apellido</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Mail</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3">
+          </div>
+        </div>
+        <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-2 col-form-label">Telefono</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Actualmente estas</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Trabajando
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+              <label class="form-check-label" for="gridRadios2">
+                Estudiando
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
+              <label class="form-check-label" for="gridRadios3">
+                Ambas
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="row mb-3">
+          <div class="col-sm-10 offset-sm-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Soy Abogado/a
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="input-group">
+            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+            <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Cargar CV</button>
+          </div>
+        <button type="submit" class="btn btn-primary justify-content-center">Enviar</button>
+      </form>
+    
     <hr>
     <!--FOOTER-->
     <footer>
