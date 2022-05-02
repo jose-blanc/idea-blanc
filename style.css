@@ -25,6 +25,18 @@
   }
   
   .centrado{text-align: center;}
+
+  /*FOOTER*/
+footer{
+  background-color: #525e75 ; display: flex; justify-content: space-between; align-items: center;
+}
+.lista-footer{
+  list-style: none; display: inline-block; color: whitesmoke; text-decoration: none; font-size: 20px;
+}
+.lista-footer li a{
+  text-align: center; color: whitesmoke; text-decoration: none;
+}
+.redes {text-align: right;}
   
   @media only screen and (max-width: 451px) {
       h1 {
