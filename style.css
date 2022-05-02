@@ -23,8 +23,13 @@
   .boton-contacto{
       background-color: blue; color: white; content: 100px; padding: 10px; border: solid 2px black; text-decoration: none;
   }
-  
+ 
   .centrado{text-align: center;}
+
+  .equipo{transition: all 3s;}
+  .equipo:hover {background-color: #525e75;}
+  .practica:hover { transform: translateX(400px);
+    transition: all 1.5s;}
 
   /*FOOTER*/
 footer{
