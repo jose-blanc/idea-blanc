@@ -1,150 +1,41 @@
-/* GENERAL*/
-
-*{margin: 0; padding: 0;
-    font-family: Arial, Helvetica, sans-serif;}
-.home-nav{
-    margin-left: 125px;
-}
-.logo{margin: 8px 8px 8px 8px;}
-/*HEADER*/
-.header-container{color: whitesmoke; font-size: 20px; padding: 20px 0;
-    display: flex; justify-content: flex-end; background-color: #525e75; 
-    
-}
-.home-nav{width: 80%;}
-.menu{
-    list-style: none; display: flex; justify-content: space-around;
-}
-.menu li a{
-    text-decoration: none; display: flex; align-items: center; color: whitesmoke;
-}
-
-/*BODY*/
-/*#foto-fondo{width: 100vw; opacity: 0.8;}*/
-#fondo-ppal{background-image: url(https://www.bostonglobe.com/resizer/_RBDLsqX33oT8BHqErMAAMB-re0=/arc-anglerfish-arc2-prod-bostonglobe/public/ZSSU57I22AGKFPODLRW5Z4IDW4.jpg); height: 400px; width: 99vw; opacity: 0.8;}
-
-h1{
-    font-style: bold; font-size: 75px; margin: 85px 110px 1px 65px;
-}
-
-h3{
-    font-style: italic; font-size: 25px; margin-left: 65px;
-}
-
-.boton-contacto{
-    background-color: blue; color: white; content: 100px; padding: 10px; margin-top: 20px; margin-left: 300px; margin-bottom: 200px; border: solid 2px black; position: relative; top: 50px; text-decoration: none;
-}
-.centrado{text-align: center;}
-/*PHOTOS INDEX*/
-.grid-container{
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr; 
-}
-.grid-item{
-    font-size: 40px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 20px;
-    text-align: center;
-    justify-content: center;
-}
-/*TABLA AREAS INDEX*/
-.areas-table{
-    display: flex; justify-content: space-around;
-}
-/*FORMULARIO CONTACTO*/
-.grid-container-form{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px 400px 100px;
-    grid-template-areas: 
-    "menu menu"
-    "aside section"
-    "datos datos";
-}
-
-.menu-formulario{
-    grid-area: menu; justify-content: left; margin-left: 20%;
-}
-
-.aside{                   
-    grid-area: aside; margin-left: 15%;
-}
-
-.section-1{
-    grid-area: section;
-    justify-content: center;
-    align-items: center;
-}
-.terminos{font-size: 15px;}
-.datos{
-    grid-area: datos;
-    text-align: center;
-    font-size: 15px;
-}
-/*FOOTER*/
-footer{
-    background-color: #525e75 ; display: flex; justify-content: space-between; align-items: center;
-}
-.lista-footer{
-    list-style: none; display: inline-block; color: whitesmoke; text-decoration: none; font-size: 20px;
-}
-.lista-footer li a{
-    text-align: center; color: whitesmoke; text-decoration: none;
-}
-.redes {text-align: right;}
-
-/*MEDIA QUERIES para MOBILE*/
-@media only screen and (max-width: 451px) {
-    .home-nav {
-      display: none;
+/*GENERAL*/
+  *{margin: 0; padding: 0;}
+  /*HEADER*/
+  .bg-navbar{
+      background-color: #525e75;
+  }
+  
+  /*FONDO*/
+  .fondo-ppal{
+      max-width: 100%;
+      height: auto;
+  }
+  .container-fondo{
+      position: relative;
+      text-align: center;
+      color: black;
     }
-    .logo{margin-right: 5px;}
-    #fondo-ppal {
-      background-image: none;
-    }
-    h1 {
-      font-style: bold;
-      font-size: 20px;
-      margin: 15px 10px 1px 3px;
-    }
-    h3 {
-      font-style: italic;
-      font-size: 15px;
-      margin-left: 5px;
-    }
-    .boton-contacto {
-      margin-top: 20px;
-      margin-left: 30px;
-      margin-bottom: 20px;
-    }
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
-    .grid-item {
-      font-size: 10px;
-    }
-    .areas-table {
-      font-size: 12px;
-    }
-    .redes {
-      display: none;
-    }
-    .lista-footer {
-      font-size: 12px;
-    }
-    /*CONTACTO*/
-    .grid-container-form{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "menu"
-        "aside" 
-        "section"
-        "datos";
-    }
+  .top-left {
+      position: absolute;
+      top: 70px;
+      left: 50px;
+  }
+  .boton-contacto{
+      background-color: blue; color: white; content: 100px; padding: 10px; border: solid 2px black; text-decoration: none;
+  }
+  
+  .centrado{text-align: center;}
+  
+  @media only screen and (max-width: 451px) {
+      h1 {
+        font-style: bold;
+        font-size: 20px;
+        margin: 15px 10px 1px 3px;
+      }
+      h3 {
+        font-style: italic;
+        font-size: 15px;
+        margin-left: 5px;
+      }
   }
 
