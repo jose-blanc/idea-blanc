@@ -55,57 +55,65 @@
             <h3><em>Complete el siguiente formulario</em></h3>
         </div>
     </div>
+    <br>
     <!--Formulario-->
-    <form class="row g-3 needs-validation container col-lg-6" novalidate>
-        <div class="col-lg-4">
-            <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
-            <input type="text" class="form-control" id="validationCustom01" required>
-        </div>
-        <div class="col-lg-4">
-            <label for="validationCustom02" class="form-label">Profesión</label>
-            <input type="text" class="form-control" id="validationCustom02" required>
-        </div>
-        <div class="col-lg-4">
-            <label for="validationCustom02" class="form-label">Mail</label>
-            <input type="text" class="form-control" id="validationCustom02" required>
-        </div>
-        <div class="col-lg-4">
-            <label for="validationCustom03" class="form-label">Ciudad</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
-        </div>
-        <div class="col-lg-4">
-            <label for="validationCustom03" class="form-label">Provincia</label>
-            <input type="text" class="form-control" id="validationCustom03" required>
-        </div>
-        <div class="col-lg-4">
-            <label for="validationCustom05" class="form-label">Teléfono</label>
-            <input type="text" class="form-control" id="validationCustom05" required>
-        </div>
-        <div class="mb-3 container">
-            <label for="exampleFormControlTextarea1" class="form-label">Comentario / Consulta</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <div class="col-12">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                <label class="form-check-label" for="invalidCheck">
-                    Acepto términos y condiciones.
-                </label>
-                <div class="invalid-feedback">
-                    Debe aceptar los términos y condiciones.
-                </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-lg-4">
+                        <label for="validationCustom01" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="validationCustom02" class="form-label">Profesión</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="validationCustom02" class="form-label">Mail</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="validationCustom03" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="validationCustom03" class="form-label">Provincia</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                    </div>
+                    <div class="col-lg-4">
+                        <label for="validationCustom05" class="form-label">Teléfono</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                    </div>
+                    <div class="mb-3 container">
+                        <label for="exampleFormControlTextarea1" class="form-label">Comentario / Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                Acepto términos y condiciones.
+                            </label>
+                            <div class="invalid-feedback">
+                                Debe aceptar los términos y condiciones.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
+            <div class="col">
+                <iframe class="mapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9715117690953!2d-58.38083688477033!3d-34.60488188045924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccace68f42dc9%3A0x131a5d3c7a37e5f3!2sSarmiento%20846%2C%20C1041AAR%20CABA!5e0!3m2!1ses!2sar!4v1649111256952!5m2!1ses!2sar"
+                    width=100% height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col-12">
-            <button class="btn btn-primary" type="submit">Enviar</button>
         </div>
-    </form>
-
-    <section class="section-1 col-lg-5"><iframe class="mapa"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9715117690953!2d-58.38083688477033!3d-34.60488188045924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccace68f42dc9%3A0x131a5d3c7a37e5f3!2sSarmiento%20846%2C%20C1041AAR%20CABA!5e0!3m2!1ses!2sar!4v1649111256952!5m2!1ses!2sar"
-            width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe> </section>
-    <div class="datos">Sarmiento 846 <br>CP 1014, CABA <br>Buenos Aires <br>+54 (11) 48031348
+    </div>
+    <div class="centrado">Sarmiento 846 <br>CP 1014, CABA <br>Buenos Aires <br>+54 (11) 48031348
         <br>estudiobs@gmail.com
     </div>
     </div>
