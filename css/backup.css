@@ -1,0 +1,56 @@
+/*GENERAL*/
+*{margin: 0; padding: 0;}
+/*HEADER*/
+.bg-navbar{
+    background-color: #525e75;
+}
+
+/*FONDO*/
+.fondo-ppal{
+    max-width: 100%;
+    height: auto;
+}
+.container-fondo{
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+.top-left {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.boton-contacto{
+    background-color: blue; color: white; content: 100px; padding: 10px; border: solid 2px black; text-decoration: none;
+}
+
+.centrado{text-align: center;}
+
+.color-hover{transition: all 0.5s;}
+.color-hover:hover {background-color: #525e75;}
+
+
+/*FOOTER*/
+footer{
+background-color: #525e75 ; display: flex; justify-content: space-between; align-items: center;
+}
+.lista-footer{
+list-style: none; display: inline-block; color: whitesmoke; text-decoration: none; font-size: 20px;
+}
+.lista-footer li a{
+text-align: center; color: whitesmoke; text-decoration: none;
+}
+.redes {text-align: right;}
+
+@media only screen and (max-width: 451px) {
+    h1 {
+      font-style: bold;
+      font-size: 20px;
+      margin: 15px 10px 1px 3px;
+    }
+    h3 {
+      font-style: italic;
+      font-size: 15px;
+      margin-left: 5px;
+    }
+}
