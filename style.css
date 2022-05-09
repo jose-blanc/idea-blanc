@@ -26,10 +26,9 @@
  
   .centrado{text-align: center;}
 
-  .equipo{transition: all 3s;}
-  .equipo:hover {background-color: #525e75;}
-  .practica:hover { transform: translateX(400px);
-    transition: all 1.5s;}
+  .color-hover{transition: all 0.5s;}
+  .color-hover:hover {background-color: #525e75;}
+
 
   /*FOOTER*/
 footer{
