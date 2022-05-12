@@ -1,0 +1,19 @@
+{
+  "name": "idea-blanc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/base/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose-blanc/idea-blanc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose-blanc/idea-blanc/issues"
+  },
+  "homepage": "https://github.com/jose-blanc/idea-blanc#readme"
+}

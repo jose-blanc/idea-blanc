@@ -1,5 +1,6 @@
-/*GENERAL*/
-*{margin: 0; padding: 0;}
+@import './listas';
+@import './general';
+
 /*HEADER*/
 .bg-navbar{
     background-color: #525e75
@@ -54,3 +55,5 @@ text-align: center; color: whitesmoke; text-decoration: none;
       margin-left: 5px;
     }
 }
+
+
