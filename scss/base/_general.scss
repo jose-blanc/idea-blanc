@@ -4,7 +4,7 @@
 }
 /*HEADER*/
 .bg-navbar {
-    background-color: nth($list: colores, $n: 1 )
+    background-color: map-get($map: header, $key: bg-header)
   }
 
 /*FONDO*/
