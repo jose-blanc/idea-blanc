@@ -26,32 +26,27 @@
 
     .boton-contacto {
         background-color: nth($list: colores, $n:3 );
-        color: white;
         content: 100px;
         padding: 10px;
         border: solid 2px black;
-        text-decoration: none;
+        @include text-color (whitesmoke, none);
     }
 }
 
 /*FOOTER*/
 footer {
     background-color: nth($list: colores, $n: 1 );
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @extend %flex;
   
     .lista-footer {
       list-style: none;
       display: inline-block;
-      color: whitesmoke;
-      text-decoration: none;
+      @include text-color (whitesmoke, none);
       font-size: 20px;
   
       li a {
         text-align: center;
-        color: whitesmoke;
-        text-decoration: none;
+        @include text-color (whitesmoke, none);
       }
     }
   
