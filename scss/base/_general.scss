@@ -33,6 +33,11 @@
     }
 }
 
+/*IMAGENES*/
+.imagen{
+  width: 75%;
+}
+
 /*FOOTER*/
 footer {
     background-color: nth($list: colores, $n: 1 );
